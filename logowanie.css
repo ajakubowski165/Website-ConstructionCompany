@@ -1,0 +1,43 @@
+:root{
+    --bordo:rgb(53, 7, 7);
+    --lightbordo:rgb(78, 4, 4);
+    --yellow:rgba(241, 195, 67, 0.9);
+    --cream:rgba(255, 229, 158, 0.699);
+    --lightcream:rgb(253, 236, 188);
+    --brown:rgba(49, 36, 8, 0.9);
+}
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color:var(--cream);
+    box-sizing: border-box;
+    font-family: 'Russo One';
+    list-style: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image:url('photos/narzedzia.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    width:100%;
+    height:85%;
+    background:linear-gradient(to right top,#1b0c02ee,black);
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (min-width : 1000px){
+    .container{
+        width:40%;
+        height:85%;
+        border-radius:100px;
+    }
+}
