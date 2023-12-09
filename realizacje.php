@@ -20,13 +20,13 @@
             <div class="nav__menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="index.html" class="nav__link">
+                        <a href="index.php" class="nav__link">
                             <i class="bx bx-home-alt nav__icon"></i>
                             <span class="nav__name">START</span>
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="about.html" class="nav__link">
+                        <a href="about.php" class="nav__link">
                             <i class="bx bx-user nav__icon"></i>
                             <span class="nav__name">O FIRMIE</span>
                         </a>
@@ -44,7 +44,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="index.html#contact" class="nav__link">
+                        <a href="index.php#contact" class="nav__link">
                             <i class="bx bx-message-square-dots nav__icon"></i>
                             <span class="nav__name">KONTAKT</span>
                         </a>
@@ -64,7 +64,7 @@
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita tempora quam omnis deleniti!(word break with hyphen test) jjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
                         <br>
-                        <a href="galeria-salon.html">Obejrzyj salony</a>
+                        <a href="galeria-salon.php">Obejrzyj salony</a>
                     </div>
                     <div class="card">
                         <div>
@@ -73,7 +73,7 @@
                         </div>
                             <p>Lorem ipsrum expreak with hyphen testjjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
                             <br>
-                            <a href="galeria-lazienka.html">Obejrzyj łazienki</a>
+                            <a href="galeria-lazienka.php">Obejrzyj łazienki</a>
                     </div>
                     <div class="card">
                         <div>
@@ -82,7 +82,7 @@
                         </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita tempora quam omnis deleniti!(word break with hyphen test) jjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
                             <br>
-                            <a href="galeria-salon.html">Obejrzyj elewacje</a>
+                            <a href="galeria-salon.php">Obejrzyj elewacje</a>
                         </div>
                     <div class="card">
                         <div>
@@ -91,7 +91,7 @@
                         </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita tempora quam omnis deleniti!(word break with hyphen test) jjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
                             <br>
-                            <a href="galeria-salon.html">Show More</a>
+                            <a href="galeria-salon.php">Show More</a>
                     </div>
                     <div class="card">
                         <div>
@@ -100,7 +100,7 @@
                         </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita tempora quam omnis deleniti!(word break with hyphen test) jjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
                             <br>
-                            <a href="galeria-salon.html">Show More</a>
+                            <a href="galeria-salon.php">Show More</a>
                     </div>
                     <div class="card">
                         <div>
@@ -109,7 +109,7 @@
                         </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum expedita tempora quam omnis deleniti!(word break with hyphen test) jjjjjjjjjjjjjjjjjjhuyiouuioiuojjjjjjjjjjj54455555788uiyuuihjhhjhjh Consequuntur, distinctio magnam beatae dignissimos assumenda quisquam accusamus similique aut esse pariatur consectetur ab adipisci cupiditate sint maxime dolorum doloremque autem quasi nostrum nobis dicta? Sit ipsum enim sint quos quod nulla consequuntur amet voluptates. Voluptate cum facilis libero rem veritatis?</p>
                             <br>
-                            <a href="galeria-salon.html">Show More</a>
+                            <a href="galeria-salon.php">Show More</a>
                     </div>
                 </div>
             </section>

@@ -17,25 +17,25 @@
 
     <header class="header">               
         <div>
-            <a href="index.html" class="nav_logo">JAKUBOWSKI</a> 
+            <a href="index.php" class="nav_logo">JAKUBOWSKI</a> 
         </div>
 
         <div class="nav__menu">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="index.html" class="nav__link">
+                    <a href="index.php" class="nav__link">
                         <i class="bx bx-home-alt nav__icon"></i>
                         <span class="nav__name">START</span>
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="about.html" class="nav__link">
+                    <a href="about.php" class="nav__link">
                         <i class="bx bx-user nav__icon"></i>
                         <span class="nav__name">O FIRMIE</span>
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="realizacje.html" class="nav__link">
+                    <a href="realizacje.php" class="nav__link">
                         <i class="bx bx-book-content nav__icon"></i>
                         <span class="nav__name">REALIZACJE</span>
                     </a>
@@ -47,7 +47,7 @@
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="index.html#contact" class="nav__link">
+                    <a href="index.php#contact" class="nav__link">
                         <i class="bx bx-message-square-dots nav__icon"></i>
                         <span class="nav__name">KONTAKT</span>
                     </a>

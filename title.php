@@ -17,12 +17,11 @@
                 <h1 class="main_text">Jakubowski</h1>
                 <h2 class="bottom_text">Firma remontowo-budowlana</h2>
             </div>
-            <a href="index.html">
+            <a href="index.php">
                 <button class="btn">
                     ZOBACZ WIĘCEJ...
                 </button>
             </a>   
         </div>
     </body>
-
 </html>

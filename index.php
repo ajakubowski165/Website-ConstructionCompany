@@ -77,7 +77,7 @@
                             harum eveniet ducimus doloremque eum quas.<br><br>adipisicing elit. Cupiditate deseru
                             nt magni sint mollitia similique corporis quis voluptatibus, eos tempora ealias
                             illo nemo excepturi blanditiis vitae impedit minus tempore praesentium harum.Quis, temporibus dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime minima quod eius aspernatur. Accusantium sed sunt corrupti sapiente deleniti?<br><hr>
-                        <a href="about.html">Czytaj wiecej...</a>
+                        <a href="about.php">Czytaj wiecej...</a>
                     </article>
                     <aside><img src="photos/DSC_0683.JPG"></aside>
                 </div>
@@ -93,7 +93,7 @@
                             harum eveniet ducimus doloremque eum quas.<br><br>adipisicing elit. Cupiditate deseru
                             nt magni sint mollitia similique corporis quis voluptatibus, eos tempora ealias
                             illo nemo excepturi blanditiis vitae impedit minus tempore praesentium harum.Quis, temporibus dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime minima quod eius aspernatur. Accusantium sed sunt corrupti sapiente deleniti?<br><hr>
-                        <a href="realizacje.html">Zobacz realizacje</a>
+                        <a href="realizacje.php">Zobacz realizacje</a>
                     </article>
                 </div>
             </section>
@@ -107,7 +107,7 @@
                             harum eveniet ducimus doloremque eum quas.<br><br>adipisicing elit. Cupiditate deseru
                             nt magni sint mollitia similique corporis quis voluptatibus, eos tempora ealias
                             illo nemo excepturi blanditiis vitae impedit minus tempore praesentium harum.Quis, temporibus dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime minima quod eius aspernatur. Accusantium sed sunt corrupti sapiente deleniti?<br><hr>
-                        <a href="about.html">Czytaj wiecej...</a>
+                        <a href="about.php">Czytaj wiecej...</a>
                     </article>
                     <aside><img src="photos/DSC_0683.JPG"></aside>
                 </div>

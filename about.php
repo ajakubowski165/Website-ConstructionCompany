@@ -20,7 +20,7 @@
     <div class="nav__menu">
       <ul class="nav__list">
         <li class="nav__item">
-          <a href="index.html" class="nav__link">
+          <a href="index.php" class="nav__link">
             <i class="bx bx-home-alt nav__icon"></i>
             <span class="nav__name">START</span>
           </a>
@@ -32,19 +32,19 @@
           </a>
         </li>
         <li class="nav__item">
-          <a href="realizacje.html" class="nav__link">
+          <a href="realizacje.php" class="nav__link">
             <i class="bx bx-book-content nav__icon"></i>
             <span class="nav__name">REALIZACJE</span>
           </a>
         </li>
         <li class="nav__item">
-          <a href="oferta.html" class="nav__link">
+          <a href="oferta.php" class="nav__link">
             <i class="bx bx-book-content nav__icon"></i>
             <span class="nav__name">OPINIE</span>
           </a>
         </li>
         <li class="nav__item">
-          <a href="index.html#contact" class="nav__link">
+          <a href="index.php#contact" class="nav__link">
             <i class="bx bx-message-square-dots nav__icon"></i>
             <span class="nav__name">KONTAKT</span>
           </a>
