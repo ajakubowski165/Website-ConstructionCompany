@@ -14,6 +14,8 @@
 
     <?php
 
+    session_start();
+
     $message = "";
 
     if (isset($_REQUEST['action']) && $_REQUEST['action'] == "login") {
@@ -24,7 +26,7 @@
     
         //obiektowo
         $db = new mysqli("localhost", "root", "", "db");
-    
+
         //prepared statements
         $q = $db->prepare("SELECT * FROM user WHERE email = ? LIMIT 1");
         //podstaw wartości
@@ -42,6 +44,9 @@
             if (password_verify($password, $userRow['haslo'])) {
                 //hasło poprawne
                 $message = "Zalogowano poprawnie";
+                $_SESSION['email'] = $email;
+                header('Location: opinie.php');
+                exit();
             } else {
                 //hasło niepoprawne
                 $message = "Błędny login lub hasło";

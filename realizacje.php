@@ -38,7 +38,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#oferta" class="nav__link">
+                        <a href="opinie.php" class="nav__link">
                             <i class="bx bx-book-content nav__icon"></i>
                             <span class="nav__name">OPINIE</span>
                         </a>

@@ -39,7 +39,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">
+                        <a href="#opinie" class="nav__link">
                             <i class="bx bx-book-content nav__icon"></i>
                             <span class="nav__name">OFERTA</span>
                         </a>
@@ -99,6 +99,7 @@
             </section>
 
             <section id="about">
+                <span id="opinie">
                 <h2 class="section__title">OPINIE</h2>
                 <div class="mini_container">
                     <article>
@@ -107,15 +108,24 @@
                             harum eveniet ducimus doloremque eum quas.<br><br>adipisicing elit. Cupiditate deseru
                             nt magni sint mollitia similique corporis quis voluptatibus, eos tempora ealias
                             illo nemo excepturi blanditiis vitae impedit minus tempore praesentium harum.Quis, temporibus dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime minima quod eius aspernatur. Accusantium sed sunt corrupti sapiente deleniti?<br><hr>
-                        <a href="about.php">Czytaj wiecej...</a>
+                        <a href="opinie.php">Czytaj wiecej...</a>
                     </article>
                     <aside><img src="photos/DSC_0683.JPG"></aside>
                 </div>
             </section>
             
 
-            <section class="contact_container" id = "contact">
-                Tutaj bedzie kiedys formularz kontaktowy :*
+            <section class="contact_container" id="contact">
+                <div class="google_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41011.952017814794!2d21.979585850000003!3d50.02546735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbae554b096b%3A0xfb1f78d1a4df278d!2sPolitechnika%20Rzeszowska%20im.%20Ignacego%20%C5%81ukasiewicza!5e0!3m2!1spl!2spl!4v1702295110732!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="dane_kontaktowe">
+                        <h1>+48 123 456 789</h1>
+                        <br>
+                        <h1>mjakubowski@wp.pl</h1>
+                        <br>
+                        <h1>+48 123 456 789</h1>
+                    </div>
+                </div>          
             </section>
         </main>
     </body>
