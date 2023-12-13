@@ -60,17 +60,23 @@
         <div class="container">
             <h1>Zaloguj się</h1>
             <br>
-            <form action="logowanie.php" method="post">
-                <label for="emailInput">Email:</label>
-                <input type="email" name="email" id="emailInput">
-                <br>
-                <br>
-                <label for="passwordInput">Hasło:</label>
-                <input type="password" name="password" id="passwordInput">
-                <input type="hidden" name="action" value="login">
-                <input type="submit" value="Zaloguj">
-            </form>
+            <div class="formularz">
+                <form action="logowanie.php" method="post">
+                    <label for="emailInput">Email:</label>
+                    <input type="email" name="email" id="emailInput">
+                    <br>
+                    <br>
+                    <label for="passwordInput">Hasło:</label>
+                    <input type="password" name="password" id="passwordInput">
+                    <input type="hidden" name="action" value="login">
+                    <br><br>
+                    <input type="submit" value="Zaloguj">
+                </form>
+            </div>
             <div class="message"><?php echo $message; ?></div>
+            <div class="powrot">
+                <a href="opinie.php" type="button" class="przycisk">POWRÓT</a>
+            </div>  
         </div>
     </body>
 

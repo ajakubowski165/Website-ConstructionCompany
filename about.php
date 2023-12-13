@@ -102,7 +102,16 @@
 </section>
 
 <section class="contact_container" id = "contact">
-  Tutaj bedzie kiedys formularz kontaktowy :*
+  <div class="google_map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41011.952017814794!2d21.979585850000003!3d50.02546735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbae554b096b%3A0xfb1f78d1a4df278d!2sPolitechnika%20Rzeszowska%20im.%20Ignacego%20%C5%81ukasiewicza!5e0!3m2!1spl!2spl!4v1702295110732!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="dane_kontaktowe">
+          <h1>+48 123 456 789</h1>
+          <br>
+          <h1>mjakubowski@wp.pl</h1>
+          <br>
+          <h1>+48 123 456 789</h1>
+      </div>
+  </div>   
 </section>
 </main>
 

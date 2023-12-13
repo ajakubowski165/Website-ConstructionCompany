@@ -41,7 +41,7 @@
                     <li class="nav__item">
                         <a href="#opinie" class="nav__link">
                             <i class="bx bx-book-content nav__icon"></i>
-                            <span class="nav__name">OFERTA</span>
+                            <span class="nav__name">OPINIE</span>
                         </a>
                     </li>
                     <li class="nav__item">
@@ -108,7 +108,7 @@
                             harum eveniet ducimus doloremque eum quas.<br><br>adipisicing elit. Cupiditate deseru
                             nt magni sint mollitia similique corporis quis voluptatibus, eos tempora ealias
                             illo nemo excepturi blanditiis vitae impedit minus tempore praesentium harum.Quis, temporibus dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime minima quod eius aspernatur. Accusantium sed sunt corrupti sapiente deleniti?<br><hr>
-                        <a href="opinie.php">Czytaj wiecej...</a>
+                        <a href="opinie.php">Zobacz wiecej...</a>
                     </article>
                     <aside><img src="photos/DSC_0683.JPG"></aside>
                 </div>

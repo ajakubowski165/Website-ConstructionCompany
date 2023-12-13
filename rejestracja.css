@@ -47,3 +47,26 @@ input{
         border-radius:100px;
     }
 }
+
+.formularz{
+    margin-top:10%;
+    display:flex;
+    justify-content:right;
+}
+
+.przycisk{
+    font-size: 2rem;
+    background-color: var(--cream);
+    color: var(--brown);
+    border-radius: 10%;
+    padding: 1%;
+}
+
+.przycisk:hover{
+    color: var(--lightcream);
+    background-color: var(--brown);
+    transition: 1s ease;
+}
+.powrot{
+    margin-top:10%;
+}

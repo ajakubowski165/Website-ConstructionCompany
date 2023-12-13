@@ -12,6 +12,8 @@
     </head>
 
     <?php
+    session_start();
+    $message = "";
     if (isset($_REQUEST['action']) && $_REQUEST['action'] == "register") {
     //rejestracja nowego użytkownika
         $db = new mysqli("localhost", "root", "", "db");
@@ -29,13 +31,13 @@
             $q->bind_param("ss", $email, $haslo);
             $result = $q->execute();
             if($result) {
-                echo "Konto utworzono poprawnie"; 
+                $message = "Konto utworzono poprawnie"; 
             } else {
-                echo "Coś poszło nie tak!";
+                $message =  "Coś poszło nie tak!";
             }
         } else 
         {
-            echo "Hasła nie są zgodne - spróbuj ponownie!";
+            $message =  "Hasła nie są zgodne - spróbuj ponownie!";
         }
     }
     ?>
@@ -44,16 +46,25 @@
     <body>
         <div class="container">
         <h1>Zarejestruj się</h1>
-        <form action="rejestracja.php" method="post">
-            <label for="emailInput">Email:</label>
-            <input type="email" name="email" id="emailInput">
-            <label for="passwordInput">Hasło:</label>
-            <input type="password" name="password" id="passwordInput">
-            <label for="passwordRepeatInput">Hasło ponownie:</label>
-            <input type="password" name="passwordRepeat" id="passwordRepeatInput">
-            <input type="hidden" name="action" value="register">
-            <input type="submit" value="Zarejestruj">
-        </form>
+            <div class="formularz">
+                <form action="rejestracja.php" method="post">
+                    <label for="emailInput">Email:</label>
+                    <input type="email" name="email" id="emailInput">
+                    <br>
+                    <label for="passwordInput">Hasło:     </label>
+                    <input type="password" name="password" id="passwordInput">
+                    <br>
+                    <label for="passwordRepeatInput">Hasło ponownie:</label>
+                    <input type="password" name="passwordRepeat" id="passwordRepeatInput">
+                    <br>
+                    <input type="hidden" name="action" value="register">
+                    <input type="submit" value="Zarejestruj">
+                </form>
+            </div>
+            <div class="message"><?php echo $message; ?></div>
+            <div class="powrot">
+                <a href="opinie.php" type="button" class="przycisk">POWRÓT</a>
+            </div>  
         </div>
     </body>
 

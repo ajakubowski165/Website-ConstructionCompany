@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="" type="image">
         <title>Jakubowski - remont dla kazdego</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="opinie-login.css">
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
@@ -42,9 +42,7 @@
             } else {
                 $message = "Ocena musi być w zakresie od 1 do 10.";
             }
-        } else {
-            $message = "Nieprawidłowe dane przesłane.";
-        }
+        } 
     }
     else
     {
@@ -111,12 +109,9 @@
 
         <main>
             <section>
-            <div>
-                <h2>Opinie Użytkowników</h2>
+            <div class="opinie">
+                <h2>Opinie Użytkowników</h2><hr>
 
-                <?php
-                    echo $message;
-                ?>
                 <?php
                      if (!empty($opinie)) {
                         foreach ($opinie as $row) {
@@ -133,18 +128,20 @@
             </section>
             <section class="contact_container" id = "contact">
                 <div class="message"><?php echo $message; ?></div>
-
+                <br><br>
                 <form method="post" action="">
                     <label for="ocena">Ocena (od 1 do 10):</label>
                     <input type="number" name="ocena" min="1" max="10" required>
-                    <br>
+                    <br><br>
                     <label for="opinia">Komentarz:</label>
-                    <textarea name="opinia" rows="4" cols="50" required></textarea>
+                    <br>
+                    <textarea name="opinia" rows="6" cols="75" required></textarea>
                     <br>
                     <input type="submit" value="Dodaj Opinie">
+                    <br><br><br>
                 </form>
 
-                <a href="logout.php" type="button" class="btn btn-primary btn-lg">WYLOGUJ</a>
+                <a href="logout.php" type="button" class="przycisk">WYLOGUJ</a>
             </section>
 
         </main>

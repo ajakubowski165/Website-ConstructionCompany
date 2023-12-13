@@ -6,14 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="" type="image">
         <title>Jakubowski - remont dla kazdego</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="opinie.css">
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
 
-<?php
-    session_start();
-?>
+    <?php
+        session_start();
+        $db = new mysqli("localhost", "root", "", "db");
+    
+        $result = $db->query("SELECT * FROM opinie");
+        $db->close();
+        $opinie = array(); 
+
+        while ($row = $result->fetch_assoc()) {
+            $opinie[] = $row; 
+        }
+    ?>
 
     <body>
         <header class="header">               
@@ -59,15 +68,29 @@
 
 
         <main>
-            <section>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat quos quam corrupti aliquam, nulla nostrum officiis molestias animi quod delectus mollitia eos asperiores tenetur repellendus exercitationem vel quo. Unde cum maxime veniam iure aliquid corporis exercitationem, ut ratione vel ullam odio? Assumenda, eaque. Unde a iusto, quis hic adipisci quaerat vel similique magnam corporis aut aperiam. Quia quo laboriosam autem, perferendis accusamus delectus nobis voluptatem aspernatur fugit, earum quis amet incidunt officiis mollitia libero impedit asperiores! Necessitatibus ducimus, perspiciatis libero voluptatem laboriosam omnis deserunt cum repellat molestiae sequi nihil dolore saepe unde, fugiat ea repudiandae, dolorum eos architecto soluta.
-         
-            <br>
-            </section>
+            <div class='opinie'>
+                <h2>OPINIE UŻYTKOWNIKÓW</h2>
+
+                <?php
+                     if (!empty($opinie)) {
+                        foreach ($opinie as $row) {
+                            echo "<p><strong>Email:</strong> " . $row['email'] . "<br>";
+                            echo "<strong>Ocena:</strong> " . $row['ocena'] . "<br>";
+                            echo "<strong>Opinia:</strong> " . $row['opinia'] . "<br>";
+                            echo "<strong>Data wpisu:</strong> " . $row['data_wpisu'] . "</p><hr>";
+                        }
+                    } else {
+                        echo "<p>Brak opinii do wyświetlenia.</p>";
+                    }
+                ?>
+            </div>
             <section class="contact_container" id = "contact">
-                <a href="logowanie.php" type="button" class="btn btn-primary btn-lg">ZALOGUJ</a>
-                <a href="rejestracja.php" type="button" class="btn btn-primary btn-lg">ZAREJESTRUJ</a>
+                <h1>Jeśli chcesz dodać opinię zaloguj się! Nie masz konta? Zarejestruj się!</h1>
+                <div class="przyciski">
+                    <a href="logowanie.php" type="button" class="przycisk">ZALOGUJ</a>
+                    <br>
+                    <a href="rejestracja.php" type="button" class="przycisk">ZAREJESTRUJ</a>
+                </div>
             </section>
 
         </main>
