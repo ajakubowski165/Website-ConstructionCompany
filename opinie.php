@@ -13,7 +13,6 @@
 
 <?php
     session_start();
-    $message = "<p>Pomyślnie zalogowano za pomocą adresu:  ".$_SESSION['email']." ";
 ?>
 
     <body>
@@ -66,10 +65,11 @@
          
             <br>
             </section>
-       
             <section class="contact_container" id = "contact">
-            <div class="message"><?php echo $message; ?></div>
+                <a href="logowanie.php" type="button" class="btn btn-primary btn-lg">ZALOGUJ</a>
+                <a href="rejestracja.php" type="button" class="btn btn-primary btn-lg">ZAREJESTRUJ</a>
             </section>
+
         </main>
     </body>
 </html>

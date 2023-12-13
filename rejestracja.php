@@ -33,8 +33,8 @@
             } else {
                 echo "Coś poszło nie tak!";
             }
-        } else {
-
+        } else 
+        {
             echo "Hasła nie są zgodne - spróbuj ponownie!";
         }
     }

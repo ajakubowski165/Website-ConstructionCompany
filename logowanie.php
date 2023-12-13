@@ -21,7 +21,7 @@
     if (isset($_REQUEST['action']) && $_REQUEST['action'] == "login") {
         $email = $_REQUEST['email'];
         $password = $_REQUEST['password'];
-    
+
         $email = filter_var($email, FILTER_SANITIZE_EMAIL);
     
         //obiektowo
@@ -43,9 +43,10 @@
             //konto istnieje
             if (password_verify($password, $userRow['haslo'])) {
                 //hasło poprawne
+                $_SESSION['zalogowany'] = true;
                 $message = "Zalogowano poprawnie";
                 $_SESSION['email'] = $email;
-                header('Location: opinie.php');
+                header('Location: opinie-login.php');
                 exit();
             } else {
                 //hasło niepoprawne
