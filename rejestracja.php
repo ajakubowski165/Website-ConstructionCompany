@@ -43,6 +43,8 @@
             $message =  "Hasła nie są zgodne - spróbuj ponownie!";
         }
     }
+
+    
     ?>
 
 

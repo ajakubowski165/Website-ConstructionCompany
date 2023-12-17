@@ -15,12 +15,16 @@
     <?php
 
     session_start();
-
+    $rand = rand(9999,1000);
+    $_SESSION['captcha-rand'] = $rand;
     $message = "";
+    
 
     if (isset($_REQUEST['action']) && $_REQUEST['action'] == "login") {
         $email = $_REQUEST['email'];
         $password = $_REQUEST['password'];
+        $captcha = isset($_POST['captcha']) ? $_POST['captcha'] : '';
+        $captcharandom = isset($_REQUEST['captcha-rand']) ? $_REQUEST['captcha-rand'] : null;
 
         $email = htmlentities($email, ENT_QUOTES, "UTF-8");
         $password = htmlentities($password, ENT_QUOTES, "UTF-8");
@@ -38,6 +42,7 @@
         $q->execute();
         $result = $q->get_result();
     
+
         $userRow = $result->fetch_assoc();
         if ($userRow == null) {
             //konto nie istnieje
@@ -45,19 +50,26 @@
         } else {
             //konto istnieje
             if (password_verify($password, $userRow['haslo'])) {
+                if(empty($captcharandom) || $captcha != $captcharandom){
+                    $message = "Niepoprawna captcha";
+                } else{
                 //hasło poprawne
                 $_SESSION['zalogowany'] = true;
                 $message = "Zalogowano poprawnie";
                 $_SESSION['email'] = $email;
                 header('Location: opinie-login.php');
                 exit();
+                }
             } else {
                 //hasło niepoprawne
                 $message = "Błędny login lub hasło";
             }
         }
     }
-    ?>
+    $rand = rand(1000, 9999);
+    $_SESSION['captcha-rand'] = $rand;
+?>
+
 
     <body>
         <div class="container">
@@ -65,15 +77,22 @@
             <br>
             <div class="formularz">
                 <form action="logowanie.php" method="post">
-                    <label for="emailInput">Email:</label>
-                    <input type="email" name="email" id="emailInput">
-                    <br>
-                    <br>
-                    <label for="passwordInput">Hasło:</label>
-                    <input type="password" name="password" id="passwordInput">
-                    <input type="hidden" name="action" value="login">
-                    <br><br>
-                    <input type="submit" value="Zaloguj">
+                <label for="emailInput">Email:</label>
+                <input type="email" name="email" id="emailInput">
+                <br>
+                <br>
+                <label for="passwordInput">Hasło:</label>
+                <input type="password" name="password" id="passwordInput">
+                <input type="hidden" name="action" value="login">
+                <br><br>
+                <label for="captcha">Captcha</label>
+                <input type="text" name="captcha" id="captcha" placeholder="Wpisz Captche" required class="form-control"/>
+                <input type="hidden" name="captcha-rand" value="<?php echo $rand; ?>">
+                <br>
+                <label for="captcha-code">Captcha Code</label>
+                <div class="captcha"><?php echo $rand; ?></div>
+                <br>
+                <input type="submit" value="Zaloguj">
                 </form>
             </div>
             <div class="message"><?php echo $message; ?></div>
@@ -82,5 +101,4 @@
             </div>  
         </div>
     </body>
-
 </html>
