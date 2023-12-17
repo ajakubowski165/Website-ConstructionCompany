@@ -62,7 +62,7 @@
             <div class="main-text">
                 <h1>GALERIA</h1>
                 <h2>SALONY</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ratione aliquam facere, consectetur consequatur doloribus ex cupiditate unde minus. Id consequuntur iste harum illum enim minus sit ut accusantium fugit!</p>
+                <p>Salon, jako serce domu, powinien być miejscem, w którym estetyka i funkcjonalność łączą się w doskonały sposób. To przestrzeń, w której design odzwierciedla indywidualny styl mieszkańców, tworząc atmosferę komfortu i relaksu.</p>
             </div>
         </article>
     </section>

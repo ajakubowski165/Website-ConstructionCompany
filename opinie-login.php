@@ -140,10 +140,8 @@
                     <input type="submit" value="Dodaj Opinie">
                     <br><br><br>
                 </form>
-
                 <a href="logout.php" type="button" class="przycisk">WYLOGUJ</a>
             </section>
-
         </main>
     </body>
 </html>

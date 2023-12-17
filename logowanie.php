@@ -22,6 +22,9 @@
         $email = $_REQUEST['email'];
         $password = $_REQUEST['password'];
 
+        $email = htmlentities($email, ENT_QUOTES, "UTF-8");
+        $password = htmlentities($password, ENT_QUOTES, "UTF-8");
+
         $email = filter_var($email, FILTER_SANITIZE_EMAIL);
     
         //obiektowo

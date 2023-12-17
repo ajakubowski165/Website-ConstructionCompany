@@ -27,37 +27,37 @@
     <body>
         <header class="header">               
             <div>
-                <a href="#home" class="nav_logo">JAKUBOWSKI</a> 
+                <a href="index.php" class="nav_logo">JAKUBOWSKI</a> 
             </div>
 
             <div class="nav__menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="index.php" class="nav__link">
                             <i class="bx bx-home-alt nav__icon"></i>
                             <span class="nav__name">START</span>
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">
+                        <a href="about.php" class="nav__link">
                             <i class="bx bx-user nav__icon"></i>
                             <span class="nav__name">O FIRMIE</span>
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#realizacje" class="nav__link">
+                        <a href="realizacje.php" class="nav__link">
                             <i class="bx bx-book-content nav__icon"></i>
                             <span class="nav__name">REALIZACJE</span>
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">
+                        <a href="#opinie" class="nav__link">
                             <i class="bx bx-book-content nav__icon"></i>
-                            <span class="nav__name">OFERTA</span>
+                            <span class="nav__name">OPINIE</span>
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">
+                        <a href="index.php#contact" class="nav__link">
                             <i class="bx bx-message-square-dots nav__icon"></i>
                             <span class="nav__name">KONTAKT</span>
                         </a>
@@ -68,7 +68,7 @@
 
 
         <main>
-            <div class='opinie'>
+            <div class='opinie' id='opinie'>
                 <h2>OPINIE UŻYTKOWNIKÓW</h2>
 
                 <?php

@@ -47,17 +47,14 @@ body{
     0%   {margin-right:-30%;}
     100% {margin-right:0;}
 }
-
 .bottom_text{
     -webkit-animation:leftToCenter 3s;
     animation-iteration-count: 1;
 }
-
 @-webkit-keyframes leftToCenter {
     0%   {margin-right:40%;}
     100% {margin-right:0;}
 }
-
 .btn{
     margin-top: 30px;
     background-color: transparent;
@@ -71,12 +68,10 @@ body{
     text-decoration: none;
     transition: all 1s ease;
 }
-
 .btn:hover{
     background-color: var(--cream);
     color:var(--brown);
 }
-
 @media screen and (max-width : 768px){
     .container{
         height:50%;

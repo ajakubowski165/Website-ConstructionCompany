@@ -41,7 +41,7 @@
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="#oferta" class="nav__link">
+                    <a href="opinie.php" class="nav__link">
                         <i class="bx bx-book-content nav__icon"></i>
                         <span class="nav__name">OPINIE</span>
                     </a>
@@ -62,7 +62,7 @@
             <div class="main-text">
                 <h1>GALERIA</h1>
                 <h2>ŁAZIENKI</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ratione aliquam facere, consectetur consequatur doloribus ex cupiditate unde minus. Id consequuntur iste harum illum enim minus sit ut accusantium fugit!</p>
+                <p>Łazienka to intymne i relaksujące miejsce w domu, gdzie design idzie w parze z praktycznymi rozwiązaniami. Wykorzystanie wysokiej jakości materiałów, nowoczesnych technologii i funkcjonalnych rozwiązań wpływa na komfort użytkowania.</p>
             </div>
         </article>
     </section>

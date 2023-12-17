@@ -63,7 +63,7 @@
                         <h1>FIRMA REMONTOWO-BUDOWLANA</h1>
                         <h2>MARIUSZ JAKUBOWSKI<br>
                         <span>Remont dla każdego</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga debitis distinctio doloribus quis adipisci asperiores soluta quidem nemo aperiam maiores tempora, accusamus minus odit magni corporis molestias dignissimos porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione assumenda recusandae earum totam fuga!</p>
+                        <p>Firma "Jakubowski" to nie tylko nazwa, lecz także gwarancja solidności, jakości i profesjonalizmu. Nasze bogate doświadczenie w branży budowlanej sprawia, że z każdym projektem podchodzimy z pasją i zaangażowaniem. Działamy z myślą o zaspokojeniu potrzeb naszych klientów, oferując kompleksowe usługi remontowo-budowlane, które spełniają najwyższe standardy.</p>
                     </div>
                 </article>
             </section>
@@ -72,11 +72,9 @@
                 <h2 class="section__title">O FIRMIE</h2>
                 <div class="mini_container">
                     <article>
-                        <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur 
-                            adipisicing elit. Excepturi exercitationem nobis quos rem illum explicabo aperiam perspiciatis odit aut? Quaerat nobis sequi minima cupiditate ex soluta quisquam eligendi eveniet saepe dolorem, tempora laudantium necessitatibus sapiente, fugiat nihil. Quod officia vel porro earum ad delectus, 
-                            harum eveniet ducimus doloremque eum quas.<br><br>adipisicing elit. Cupiditate deseru
-                            nt magni sint mollitia similique corporis quis voluptatibus, eos tempora ealias
-                            illo nemo excepturi blanditiis vitae impedit minus tempore praesentium harum.Quis, temporibus dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime minima quod eius aspernatur. Accusantium sed sunt corrupti sapiente deleniti?<br><hr>
+                        <p>Firma Budowlana "Jakubowski" to renomowany podmiot specjalizujący się w kompleksowych usługach remontowo-budowlanych. Nasze doświadczenie oraz profesjonalizm sprawiają, że każde zlecenie traktujemy indywidualnie, zapewniając najwyższą jakość świadczonych usług. Jesteśmy dumni z bogatego portfolio zrealizowanych projektów, obejmujących budowę nowoczesnych domów, remonty mieszkań oraz prace wykończeniowe.
+                        W naszej działalności kładziemy nacisk na perfekcję wykonania, dbając jednocześnie o efektywność i terminowość realizacji. <br>Nasz zespół to wykwalifikowani specjaliści, dla których żaden projekt nie jest za trudny. Posiadamy nowoczesny sprzęt oraz korzystamy z najnowszych technologii, co umożliwia nam sprostać nawet najbardziej wymagającym oczekiwaniom naszych klientów.
+                        Wybierając firmę "Jakubowski," inwestujesz w solidność, rzetelność i fachowość. Jesteśmy gotowi podjąć się każdego wyzwania budowlanego, zapewniając kompleksową obsługę od projektu po realizację.<br><hr>
                         <a href="about.php">Czytaj wiecej...</a>
                     </article>
                     <aside><img src="photos/DSC_0683.JPG"></aside>
@@ -88,11 +86,10 @@
                     <aside><img src="photos/DSC_0673.JPG"></aside>
                     <article>
                         <h2 class="section__title">REALIZACJE</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur 
-                            adipisicing elit. Excepturi exercitationem nobis quos rem illum explicabo aperiam perspiciatis odit aut? Quaerat nobis sequi minima cupiditate ex soluta quisquam eligendi eveniet saepe dolorem, tempora laudantium necessitatibus sapiente, fugiat nihil. Quod officia vel porro earum ad delectus, 
-                            harum eveniet ducimus doloremque eum quas.<br><br>adipisicing elit. Cupiditate deseru
-                            nt magni sint mollitia similique corporis quis voluptatibus, eos tempora ealias
-                            illo nemo excepturi blanditiis vitae impedit minus tempore praesentium harum.Quis, temporibus dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime minima quod eius aspernatur. Accusantium sed sunt corrupti sapiente deleniti?<br><hr>
+                        <p>Nasza firma budowlana "Jakubowski" z dumą prezentuje bogate portfolio zrealizowanych projektów, które świadczą o naszej doskonałej jakości usług. Przez lata działalności zrealizowaliśmy różnorodne inwestycje, obejmujące budowę nowoczesnych domów, remonty mieszkań, oraz prace wykończeniowe o różnym stopniu skomplikowania.
+                            Nasze realiacje charakteryzują się starannością wykonania, precyzją w detalach oraz zastosowaniem nowoczesnych rozwiązań. 
+                            <br><br>Przeglądając nasze zrealizowane projekty, można zauważyć różnorodność stylów i indywidualne podejście do każdego zadania. Bez względu na skalę inwestycji, nasz zespół angażuje się w każdy etap realizacji, zapewniając pełną satysfakcję klientów.
+                            Jesteśmy dumni z naszych osiągnięć i z chęcią dzielimy się nimi z Państwem. Zachęcamy do zapoznania się z naszym portfolio, które stanowi najlepsze potwierdzenie naszych umiejętności i zaangażowania w każdy projekt budowlany.<br><hr>
                         <a href="realizacje.php">Zobacz realizacje</a>
                     </article>
                 </div>
@@ -103,11 +100,8 @@
                 <h2 class="section__title">OPINIE</h2>
                 <div class="mini_container">
                     <article>
-                        <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur 
-                            adipisicing elit. Excepturi exercitationem nobis quos rem illum explicabo aperiam perspiciatis odit aut? Quaerat nobis sequi minima cupiditate ex soluta quisquam eligendi eveniet saepe dolorem, tempora laudantium necessitatibus sapiente, fugiat nihil. Quod officia vel porro earum ad delectus, 
-                            harum eveniet ducimus doloremque eum quas.<br><br>adipisicing elit. Cupiditate deseru
-                            nt magni sint mollitia similique corporis quis voluptatibus, eos tempora ealias
-                            illo nemo excepturi blanditiis vitae impedit minus tempore praesentium harum.Quis, temporibus dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime minima quod eius aspernatur. Accusantium sed sunt corrupti sapiente deleniti?<br><hr>
+                        <p>Opinie naszych klientów są dla nas niezmiernie ważne, stanowiąc odzwierciedlenie naszej rzetelnej pracy oraz zaangażowania w każde zlecenie. <br><br>Z dumą prezentujemy świadectwa uznania, które potwierdzają wysoką jakość naszych usług budowlanych. Klienci doceniają nie tylko efekt końcowy, ale także profesjonalizm, staranność i terminowość naszego zespołu.
+                            Nasze opinie stanowią nie tylko dowód na nasze umiejętności rzemieślnicze, ale także na nasze zaangażowanie w budowanie trwałych relacji z klientami. Dziękujemy za zaufanie i zachęcamy do zapoznania się z pełnym spektrum pozytywnych doświadczeń innych osób, które skorzystały z usług firmy "Jakubowski". <br><hr>
                         <a href="opinie.php">Zobacz wiecej...</a>
                     </article>
                     <aside><img src="photos/DSC_0683.JPG"></aside>
@@ -123,7 +117,7 @@
                         <br>
                         <h1>mjakubowski@wp.pl</h1>
                         <br>
-                        <h1>+48 123 456 789</h1>
+                        <h1>skype: mjakubowski123</h1>
                     </div>
                 </div>          
             </section>

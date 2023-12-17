@@ -18,10 +18,13 @@
     //rejestracja nowego użytkownika
         $db = new mysqli("localhost", "root", "", "db");
         $email = $_REQUEST['email'];
-        //wyczyść email
         $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
         $password = $_REQUEST['password'];
+
+        $email = htmlentities($email, ENT_QUOTES, "UTF-8");
+        $password = htmlentities($password, ENT_QUOTES, "UTF-8");
+
         $passwordRepeat = $_REQUEST['passwordRepeat'];
 
         if($password == $passwordRepeat) {

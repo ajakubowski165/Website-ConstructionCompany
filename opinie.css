@@ -149,14 +149,12 @@ section{
     margin-right:20%;
     border: 3px solid var(--lightcream);
 }
-
 .przyciski{
     height:70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .przycisk{
     font-size: 2rem;
     background-color: var(--cream);
@@ -164,7 +162,6 @@ section{
     border-radius: 10%;
     padding: 1%;
 }
-
 .przycisk:hover{
     color: var(--lightcream);
     background-color: var(--brown);

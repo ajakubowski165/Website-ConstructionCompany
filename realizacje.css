@@ -135,7 +135,7 @@ i.nav__icon{
 }
 #container .card p{
     text-align: justify;
-    word-break: break-all;
+    word-break: keep-all;
 }
 #container .card>div{
     position: relative;

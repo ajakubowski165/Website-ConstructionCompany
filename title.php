@@ -8,7 +8,6 @@
         <title>Jakubowski - remont dla kazdego</title>
         <link rel="stylesheet" href="style1.css">
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
 
     <body>
