@@ -13,13 +13,11 @@
 
 
     <?php
-
     session_start();
     $rand = rand(9999,1000);
     $_SESSION['captcha-rand'] = $rand;
     $message = "";
     
-
     if (isset($_REQUEST['action']) && $_REQUEST['action'] == "login") {
         $email = $_REQUEST['email'];
         $password = $_REQUEST['password'];
@@ -42,7 +40,6 @@
         $q->execute();
         $result = $q->get_result();
     
-
         $userRow = $result->fetch_assoc();
         if ($userRow == null) {
             //konto nie istnieje
@@ -84,14 +81,14 @@
                 <label for="passwordInput">Hasło:</label>
                 <input type="password" name="password" id="passwordInput">
                 <input type="hidden" name="action" value="login">
-                <br><br>
-                <label for="captcha">Captcha</label>
+                <br><br><br>
                 <input type="text" name="captcha" id="captcha" placeholder="Wpisz Captche" required class="form-control"/>
                 <input type="hidden" name="captcha-rand" value="<?php echo $rand; ?>">
+                <br><br><br>
+                <label for="captcha-code">Kod Captchy</label>
                 <br>
-                <label for="captcha-code">Captcha Code</label>
                 <div class="captcha"><?php echo $rand; ?></div>
-                <br>
+                <br><br>
                 <input type="submit" value="Zaloguj">
                 </form>
             </div>

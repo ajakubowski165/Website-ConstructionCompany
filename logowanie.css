@@ -56,7 +56,6 @@ input{
         border-radius:100px;
     }
 }
-
 .przycisk{
     font-size: 2rem;
     background-color: var(--cream);
@@ -64,13 +63,22 @@ input{
     border-radius: 10%;
     padding: 1%;
 }
-
 .przycisk:hover{
     color: var(--lightcream);
     background-color: var(--brown);
     transition: 1s ease;
 }
-
 .powrot{
-    margin-top:10%;
+    margin-top:25%;
+}
+.captcha{
+    background-color: var(--brown);
+    font-size: 35px; 
+    font-style: italic; 
+    color: transparent;
+    background: linear-gradient(90deg, var(--cream), var(--brown), #666);
+    letter-spacing: 10px; 
+    display: inline-block;
+    -webkit-background-clip: text;
+    filter: blur(2px);
 }

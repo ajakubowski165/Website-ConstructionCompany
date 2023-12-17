@@ -70,3 +70,14 @@ input{
 .powrot{
     margin-top:10%;
 }
+.captcha{
+    background-color: var(--brown);
+    font-size: 35px; 
+    font-style: italic; 
+    color: transparent;
+    background: linear-gradient(90deg, var(--cream), var(--brown), #666);
+    letter-spacing: 10px; 
+    display: inline-block;
+    -webkit-background-clip: text;
+    filter: blur(2px);
+}
