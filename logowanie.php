@@ -31,16 +31,12 @@
     
         //obiektowo
         $db = new mysqli("localhost", "root", "", "db");
-
-        //prepared statements
         $q = $db->prepare("SELECT * FROM user WHERE email = ? LIMIT 1");
-        //podstaw wartości
         $q->bind_param("s", $email);
-        //wykonaj
         $q->execute();
         $result = $q->get_result();
-    
         $userRow = $result->fetch_assoc();
+        
         if ($userRow == null) {
             //konto nie istnieje
             $message = "Błędny login lub hasło";
